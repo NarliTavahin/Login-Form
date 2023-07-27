@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background: url(connecting-dots-lines_213860.jpg);
+    font-family: sans-serif;
+}
+
+.Loginbox {
+    width: 330px;
+    height: 440px;
+    background: #363535;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 70px 30px;
+    border-radius: 2%;
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: calc(50% - 50px);
+}
+
+.formm {
+    padding: 7px 7px;
+}
+.Loginbox h2 {
+    padding: 0 0 20px;
+    text-align: center;
+    font-style: 20px;
+}
+
+.Loginbox p {
+    font-weight: bold;
+}
+.Loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.submit {
+    padding-top: 10px;
+}
+
+.Loginbox input[type="text"],  input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.Loginbox input[type="submit"] 
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0febeb;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.Loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #42e422;
+    color: #000;
+} 
+
+.Loginbox a{
+    display: block;
+    text-decoration: none;
+    font-style: 10px;
+    line-height: 30px;
+    color: darkgrey;
+}
+
+.Loginbox a:hover {
+    color: #42e422;
+}
